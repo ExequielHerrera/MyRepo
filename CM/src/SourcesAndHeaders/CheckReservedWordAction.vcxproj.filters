@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders\CheckReservedWordAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders\CheckReservedWordAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{31FC24A1-1F7F-3AEE-95A1-6CCCFB69425E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E5AB5D53-BAC6-35AE-86EA-41B9AA8E3831}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

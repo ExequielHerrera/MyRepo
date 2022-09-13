@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\exequiel.herrera\Documents\C++Projects\CM\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders;C:\Users\exequiel.herrera\Documents\C++Projects\CM\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -103,10 +103,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\exequiel.herrera\Documents\C++Projects\CM\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders;C:\Users\exequiel.herrera\Documents\C++Projects\CM\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\exequiel.herrera\Documents\C++Projects\CM\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders;C:\Users\exequiel.herrera\Documents\C++Projects\CM\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -114,8 +114,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SourcesAndHeaders\Debug\Action.lib;SourcesAndHeaders\Debug\AddContextAction.lib;SourcesAndHeaders\Debug\CheckReservedWordAction.lib;SourcesAndHeaders\Debug\ConcatenateDataAction.lib;SourcesAndHeaders\Debug\ConcatenateKeyAction.lib;SourcesAndHeaders\Debug\DataReadyAction.lib;SourcesAndHeaders\Debug\DictionaryData.lib;SourcesAndHeaders\Debug\ErrorTratementAction.lib;SourcesAndHeaders\Debug\JsonAnalizer.lib;SourcesAndHeaders\Debug\MoveAction.lib;SourcesAndHeaders\Debug\RemoveContextAction.lib;SourcesAndHeaders\Debug\StayAction.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/exequiel.herrera/Documents/C++Projects/CM/src/SourcesAndHeaders;C:/Users/exequiel.herrera/Documents/C++Projects/CM/src/SourcesAndHeaders/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -129,7 +129,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\exequiel.herrera\Documents\C++Projects\CM\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders;C:\Users\exequiel.herrera\Documents\C++Projects\CM\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -146,10 +146,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\exequiel.herrera\Documents\C++Projects\CM\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders;C:\Users\exequiel.herrera\Documents\C++Projects\CM\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\exequiel.herrera\Documents\C++Projects\CM\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders;C:\Users\exequiel.herrera\Documents\C++Projects\CM\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -157,8 +157,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SourcesAndHeaders\Release\Action.lib;SourcesAndHeaders\Release\AddContextAction.lib;SourcesAndHeaders\Release\CheckReservedWordAction.lib;SourcesAndHeaders\Release\ConcatenateDataAction.lib;SourcesAndHeaders\Release\ConcatenateKeyAction.lib;SourcesAndHeaders\Release\DataReadyAction.lib;SourcesAndHeaders\Release\DictionaryData.lib;SourcesAndHeaders\Release\ErrorTratementAction.lib;SourcesAndHeaders\Release\JsonAnalizer.lib;SourcesAndHeaders\Release\MoveAction.lib;SourcesAndHeaders\Release\RemoveContextAction.lib;SourcesAndHeaders\Release\StayAction.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/exequiel.herrera/Documents/C++Projects/CM/src/SourcesAndHeaders;C:/Users/exequiel.herrera/Documents/C++Projects/CM/src/SourcesAndHeaders/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -172,7 +172,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\exequiel.herrera\Documents\C++Projects\CM\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders;C:\Users\exequiel.herrera\Documents\C++Projects\CM\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -189,10 +189,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\exequiel.herrera\Documents\C++Projects\CM\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders;C:\Users\exequiel.herrera\Documents\C++Projects\CM\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\exequiel.herrera\Documents\C++Projects\CM\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders;C:\Users\exequiel.herrera\Documents\C++Projects\CM\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -200,8 +200,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SourcesAndHeaders\MinSizeRel\Action.lib;SourcesAndHeaders\MinSizeRel\AddContextAction.lib;SourcesAndHeaders\MinSizeRel\CheckReservedWordAction.lib;SourcesAndHeaders\MinSizeRel\ConcatenateDataAction.lib;SourcesAndHeaders\MinSizeRel\ConcatenateKeyAction.lib;SourcesAndHeaders\MinSizeRel\DataReadyAction.lib;SourcesAndHeaders\MinSizeRel\DictionaryData.lib;SourcesAndHeaders\MinSizeRel\ErrorTratementAction.lib;SourcesAndHeaders\MinSizeRel\JsonAnalizer.lib;SourcesAndHeaders\MinSizeRel\MoveAction.lib;SourcesAndHeaders\MinSizeRel\RemoveContextAction.lib;SourcesAndHeaders\MinSizeRel\StayAction.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/exequiel.herrera/Documents/C++Projects/CM/src/SourcesAndHeaders;C:/Users/exequiel.herrera/Documents/C++Projects/CM/src/SourcesAndHeaders/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -215,7 +215,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\exequiel.herrera\Documents\C++Projects\CM\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders;C:\Users\exequiel.herrera\Documents\C++Projects\CM\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -231,10 +231,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\exequiel.herrera\Documents\C++Projects\CM\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders;C:\Users\exequiel.herrera\Documents\C++Projects\CM\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\exequiel.herrera\Documents\C++Projects\CM\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders;C:\Users\exequiel.herrera\Documents\C++Projects\CM\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -242,8 +242,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SourcesAndHeaders\RelWithDebInfo\Action.lib;SourcesAndHeaders\RelWithDebInfo\AddContextAction.lib;SourcesAndHeaders\RelWithDebInfo\CheckReservedWordAction.lib;SourcesAndHeaders\RelWithDebInfo\ConcatenateDataAction.lib;SourcesAndHeaders\RelWithDebInfo\ConcatenateKeyAction.lib;SourcesAndHeaders\RelWithDebInfo\DataReadyAction.lib;SourcesAndHeaders\RelWithDebInfo\DictionaryData.lib;SourcesAndHeaders\RelWithDebInfo\ErrorTratementAction.lib;SourcesAndHeaders\RelWithDebInfo\JsonAnalizer.lib;SourcesAndHeaders\RelWithDebInfo\MoveAction.lib;SourcesAndHeaders\RelWithDebInfo\RemoveContextAction.lib;SourcesAndHeaders\RelWithDebInfo\StayAction.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/exequiel.herrera/Documents/C++Projects/CM/src/SourcesAndHeaders;C:/Users/exequiel.herrera/Documents/C++Projects/CM/src/SourcesAndHeaders/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -321,6 +321,54 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders\Action.vcxproj">
+      <Project>{F8B64B52-58F8-37ED-AECD-BF14307B5734}</Project>
+      <Name>Action</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders\AddContextAction.vcxproj">
+      <Project>{8E9F4B25-E147-3BCC-865D-E28AF551DB62}</Project>
+      <Name>AddContextAction</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders\CheckReservedWordAction.vcxproj">
+      <Project>{5AC90439-3F5E-3DF2-935F-8E8007FFC762}</Project>
+      <Name>CheckReservedWordAction</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders\ConcatenateDataAction.vcxproj">
+      <Project>{5FDAABBF-345D-3A64-AAE7-73EF329AF1E9}</Project>
+      <Name>ConcatenateDataAction</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders\ConcatenateKeyAction.vcxproj">
+      <Project>{FD056F6E-8021-369E-A7AA-077C442A2270}</Project>
+      <Name>ConcatenateKeyAction</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders\DataReadyAction.vcxproj">
+      <Project>{371FF5F1-78F2-39FE-BB29-0258CDFC402A}</Project>
+      <Name>DataReadyAction</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders\DictionaryData.vcxproj">
+      <Project>{60CB9DFA-916E-34A4-BA04-0024E55A0EEF}</Project>
+      <Name>DictionaryData</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders\ErrorTratementAction.vcxproj">
+      <Project>{108DE4A5-46D7-379D-B1FF-B389D9DD3EBD}</Project>
+      <Name>ErrorTratementAction</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders\JsonAnalizer.vcxproj">
+      <Project>{2F47748D-8448-3B3F-A7D4-FC5C8EE8354A}</Project>
+      <Name>JsonAnalizer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders\MoveAction.vcxproj">
+      <Project>{1088145F-C8FB-3137-B2A2-16055C87E444}</Project>
+      <Name>MoveAction</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders\RemoveContextAction.vcxproj">
+      <Project>{A8FFFC0C-6578-3E8A-AFAA-C9919C64219E}</Project>
+      <Name>RemoveContextAction</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders\StayAction.vcxproj">
+      <Project>{68D601FB-BD50-36A0-A38C-2954600AD1D9}</Project>
+      <Name>StayAction</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

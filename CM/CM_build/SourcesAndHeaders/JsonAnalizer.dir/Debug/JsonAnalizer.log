@@ -1,0 +1,3 @@
+﻿  JsonAnalizer.cpp
+C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders\JsonAnalizer.cpp(335,33): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  JsonAnalizer.vcxproj -> C:\Users\exequiel.herrera\Documents\C++Projects\CM\CM_build\SourcesAndHeaders\Debug\JsonAnalizer.lib

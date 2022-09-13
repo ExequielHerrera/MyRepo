@@ -1,0 +1,13 @@
+add_library (Action Action.cpp Action.h )
+add_library (AddContextAction AddContextAction.cpp  AddContextAction.h)
+add_library (CheckReservedWordAction CheckReservedWordAction.cpp CheckReservedWordAction.h) 
+add_library (ConcatenateDataAction ConcatenateDataAction.cpp ConcatenateDataAction.h)
+add_library (ConcatenateKeyAction ConcatenateKeyAction.cpp ConcatenateKeyAction.h)
+add_library (DataReadyAction DataReadyAction.cpp DataReadyAction.h)
+add_library (DictionaryData DictionaryData.cpp DictionaryData.h)
+add_library (ErrorTratementAction ErrorTratementAction.cpp ErrorTratementAction.h)
+add_library (JsonAnalizer JsonAnalizer.cpp JsonAnalizer.h)
+add_library (MoveAction MoveAction.cpp MoveAction.h )
+add_library (RemoveContextAction RemoveContextAction.cpp RemoveContextAction.h)
+add_library (StayAction StayAction.cpp StayAction.h )   
+

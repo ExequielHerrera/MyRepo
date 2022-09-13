@@ -173,9 +173,57 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders\Action.vcxproj">
+      <Project>{F8B64B52-58F8-37ED-AECD-BF14307B5734}</Project>
+      <Name>Action</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders\AddContextAction.vcxproj">
+      <Project>{8E9F4B25-E147-3BCC-865D-E28AF551DB62}</Project>
+      <Name>AddContextAction</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\CMakeTesting.vcxproj">
       <Project>{41C7A212-BEFC-3F45-852B-863851D10B8B}</Project>
       <Name>CMakeTesting</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders\CheckReservedWordAction.vcxproj">
+      <Project>{5AC90439-3F5E-3DF2-935F-8E8007FFC762}</Project>
+      <Name>CheckReservedWordAction</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders\ConcatenateDataAction.vcxproj">
+      <Project>{5FDAABBF-345D-3A64-AAE7-73EF329AF1E9}</Project>
+      <Name>ConcatenateDataAction</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders\ConcatenateKeyAction.vcxproj">
+      <Project>{FD056F6E-8021-369E-A7AA-077C442A2270}</Project>
+      <Name>ConcatenateKeyAction</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders\DataReadyAction.vcxproj">
+      <Project>{371FF5F1-78F2-39FE-BB29-0258CDFC402A}</Project>
+      <Name>DataReadyAction</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders\DictionaryData.vcxproj">
+      <Project>{60CB9DFA-916E-34A4-BA04-0024E55A0EEF}</Project>
+      <Name>DictionaryData</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders\ErrorTratementAction.vcxproj">
+      <Project>{108DE4A5-46D7-379D-B1FF-B389D9DD3EBD}</Project>
+      <Name>ErrorTratementAction</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders\JsonAnalizer.vcxproj">
+      <Project>{2F47748D-8448-3B3F-A7D4-FC5C8EE8354A}</Project>
+      <Name>JsonAnalizer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders\MoveAction.vcxproj">
+      <Project>{1088145F-C8FB-3137-B2A2-16055C87E444}</Project>
+      <Name>MoveAction</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders\RemoveContextAction.vcxproj">
+      <Project>{A8FFFC0C-6578-3E8A-AFAA-C9919C64219E}</Project>
+      <Name>RemoveContextAction</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders\StayAction.vcxproj">
+      <Project>{68D601FB-BD50-36A0-A38C-2954600AD1D9}</Project>
+      <Name>StayAction</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

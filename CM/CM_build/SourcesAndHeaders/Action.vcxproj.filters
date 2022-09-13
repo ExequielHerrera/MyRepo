@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders\Action.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders\Action.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\exequiel.herrera\Documents\C++Projects\CM\src\SourcesAndHeaders\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{FFE1A7EB-864C-3E37-9247-5DAEE3045675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0518BCD2-BCA4-3A52-B0C6-9C343780B2A1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
