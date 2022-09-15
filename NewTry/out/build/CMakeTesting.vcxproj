@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BDAEFD1E-4E80-3EC6-9468-E5D97FC5FA36}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>CMakeTesting</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CMakeTesting.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CMakeTesting</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CMakeTesting.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CMakeTesting</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CMakeTesting.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CMakeTesting</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CMakeTesting.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CMakeTesting</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\Action;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\AddContextAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\CheckReservedWordAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\ConcatenateDataAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\DataReadyAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\DictionaryData);C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\ErrorTratementAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\JsonAnalizer;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\MoveAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\RemoveContextAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\StayAction;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\Action;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\AddContextAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\CheckReservedWordAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\ConcatenateDataAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\DataReadyAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\DictionaryData);C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\ErrorTratementAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\JsonAnalizer;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\MoveAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\RemoveContextAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\StayAction;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\Action;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\AddContextAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\CheckReservedWordAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\ConcatenateDataAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\DataReadyAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\DictionaryData);C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\ErrorTratementAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\JsonAnalizer;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\MoveAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\RemoveContextAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\StayAction;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>includes\Action\Debug\Action.lib;includes\AddContextAction\Debug\AddContextAction.lib;includes\CheckReservedWordAction\Debug\CheckReservedWordAction.lib;includes\ConcatenateKeyAction\Debug\ConcatenateKeyAction.lib;includes\ConcatenateDataAction\Debug\ConcatenateDataAction.lib;includes\DataReadyAction\Debug\DataReadyAction.lib;includes\DictionaryData\Debug\DictionaryData.lib;includes\ErrorTratementAction\Debug\ErrorTratementAction.lib;includes\JsonAnalizer\Debug\JsonAnalizer.lib;includes\MoveAction\Debug\MoveAction.lib;includes\RemoveContextAction\Debug\RemoveContextAction.lib;includes\StayAction\Debug\StayAction.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/out/build/Debug/CMakeTesting.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/out/build/Debug/CMakeTesting.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\Action;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\AddContextAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\CheckReservedWordAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\ConcatenateDataAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\DataReadyAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\DictionaryData);C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\ErrorTratementAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\JsonAnalizer;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\MoveAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\RemoveContextAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\StayAction;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\Action;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\AddContextAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\CheckReservedWordAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\ConcatenateDataAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\DataReadyAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\DictionaryData);C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\ErrorTratementAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\JsonAnalizer;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\MoveAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\RemoveContextAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\StayAction;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\Action;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\AddContextAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\CheckReservedWordAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\ConcatenateDataAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\DataReadyAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\DictionaryData);C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\ErrorTratementAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\JsonAnalizer;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\MoveAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\RemoveContextAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\StayAction;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>includes\Action\Release\Action.lib;includes\AddContextAction\Release\AddContextAction.lib;includes\CheckReservedWordAction\Release\CheckReservedWordAction.lib;includes\ConcatenateKeyAction\Release\ConcatenateKeyAction.lib;includes\ConcatenateDataAction\Release\ConcatenateDataAction.lib;includes\DataReadyAction\Release\DataReadyAction.lib;includes\DictionaryData\Release\DictionaryData.lib;includes\ErrorTratementAction\Release\ErrorTratementAction.lib;includes\JsonAnalizer\Release\JsonAnalizer.lib;includes\MoveAction\Release\MoveAction.lib;includes\RemoveContextAction\Release\RemoveContextAction.lib;includes\StayAction\Release\StayAction.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/out/build/Release/CMakeTesting.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/out/build/Release/CMakeTesting.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\Action;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\AddContextAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\CheckReservedWordAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\ConcatenateDataAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\DataReadyAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\DictionaryData);C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\ErrorTratementAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\JsonAnalizer;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\MoveAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\RemoveContextAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\StayAction;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\Action;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\AddContextAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\CheckReservedWordAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\ConcatenateDataAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\DataReadyAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\DictionaryData);C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\ErrorTratementAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\JsonAnalizer;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\MoveAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\RemoveContextAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\StayAction;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\Action;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\AddContextAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\CheckReservedWordAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\ConcatenateDataAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\DataReadyAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\DictionaryData);C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\ErrorTratementAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\JsonAnalizer;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\MoveAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\RemoveContextAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\StayAction;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>includes\Action\MinSizeRel\Action.lib;includes\AddContextAction\MinSizeRel\AddContextAction.lib;includes\CheckReservedWordAction\MinSizeRel\CheckReservedWordAction.lib;includes\ConcatenateKeyAction\MinSizeRel\ConcatenateKeyAction.lib;includes\ConcatenateDataAction\MinSizeRel\ConcatenateDataAction.lib;includes\DataReadyAction\MinSizeRel\DataReadyAction.lib;includes\DictionaryData\MinSizeRel\DictionaryData.lib;includes\ErrorTratementAction\MinSizeRel\ErrorTratementAction.lib;includes\JsonAnalizer\MinSizeRel\JsonAnalizer.lib;includes\MoveAction\MinSizeRel\MoveAction.lib;includes\RemoveContextAction\MinSizeRel\RemoveContextAction.lib;includes\StayAction\MinSizeRel\StayAction.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/out/build/MinSizeRel/CMakeTesting.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/out/build/MinSizeRel/CMakeTesting.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\Action;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\AddContextAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\CheckReservedWordAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\ConcatenateDataAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\DataReadyAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\DictionaryData);C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\ErrorTratementAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\JsonAnalizer;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\MoveAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\RemoveContextAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\StayAction;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\Action;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\AddContextAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\CheckReservedWordAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\ConcatenateDataAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\DataReadyAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\DictionaryData);C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\ErrorTratementAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\JsonAnalizer;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\MoveAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\RemoveContextAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\StayAction;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\Action;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\AddContextAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\CheckReservedWordAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\ConcatenateDataAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\DataReadyAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\DictionaryData);C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\ErrorTratementAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\JsonAnalizer;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\MoveAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\RemoveContextAction;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\StayAction;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>includes\Action\RelWithDebInfo\Action.lib;includes\AddContextAction\RelWithDebInfo\AddContextAction.lib;includes\CheckReservedWordAction\RelWithDebInfo\CheckReservedWordAction.lib;includes\ConcatenateKeyAction\RelWithDebInfo\ConcatenateKeyAction.lib;includes\ConcatenateDataAction\RelWithDebInfo\ConcatenateDataAction.lib;includes\DataReadyAction\RelWithDebInfo\DataReadyAction.lib;includes\DictionaryData\RelWithDebInfo\DictionaryData.lib;includes\ErrorTratementAction\RelWithDebInfo\ErrorTratementAction.lib;includes\JsonAnalizer\RelWithDebInfo\JsonAnalizer.lib;includes\MoveAction\RelWithDebInfo\MoveAction.lib;includes\RemoveContextAction\RelWithDebInfo\RemoveContextAction.lib;includes\StayAction\RelWithDebInfo\StayAction.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/out/build/RelWithDebInfo/CMakeTesting.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/out/build/RelWithDebInfo/CMakeTesting.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple -BC:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/out/build --check-stamp-file C:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/out/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\CMakeTestingConfig.h.in;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\3.24.1\CMakeCCompiler.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\3.24.1\CMakeCXXCompiler.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\3.24.1\CMakeRCCompiler.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\3.24.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple -BC:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/out/build --check-stamp-file C:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/out/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\CMakeTestingConfig.h.in;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\3.24.1\CMakeCCompiler.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\3.24.1\CMakeCXXCompiler.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\3.24.1\CMakeRCCompiler.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\3.24.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple -BC:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/out/build --check-stamp-file C:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/out/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\CMakeTestingConfig.h.in;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\3.24.1\CMakeCCompiler.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\3.24.1\CMakeCXXCompiler.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\3.24.1\CMakeRCCompiler.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\3.24.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple -BC:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/out/build --check-stamp-file C:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/out/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\CMakeTestingConfig.h.in;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\3.24.1\CMakeCCompiler.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\3.24.1\CMakeCXXCompiler.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\3.24.1\CMakeRCCompiler.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\3.24.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\ZERO_CHECK.vcxproj">
+      <Project>{9C9FB7A0-0EB6-3043-96EE-13ED02C3DF3D}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\Action\Action.vcxproj">
+      <Project>{DEA8F064-3D21-3814-AE0A-AE960FA8040F}</Project>
+      <Name>Action</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\AddContextAction\AddContextAction.vcxproj">
+      <Project>{BC6EBF11-774C-368F-BFB5-AFAFC41718D8}</Project>
+      <Name>AddContextAction</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\CheckReservedWordAction\CheckReservedWordAction.vcxproj">
+      <Project>{AF623D55-FE90-3C63-9550-AD292011A06A}</Project>
+      <Name>CheckReservedWordAction</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\ConcatenateDataAction\ConcatenateDataAction.vcxproj">
+      <Project>{905CA1AE-5D98-3726-8411-6134809D6058}</Project>
+      <Name>ConcatenateDataAction</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\ConcatenateKeyAction\ConcatenateKeyAction.vcxproj">
+      <Project>{CF4F2BCE-66CC-3293-B793-0E1F00791A3F}</Project>
+      <Name>ConcatenateKeyAction</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\DataReadyAction\DataReadyAction.vcxproj">
+      <Project>{220025A6-58E4-3F2C-A9EE-97670336B668}</Project>
+      <Name>DataReadyAction</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\DictionaryData\DictionaryData.vcxproj">
+      <Project>{590B3696-1845-353F-9663-4E79A8835F5D}</Project>
+      <Name>DictionaryData</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\ErrorTratementAction\ErrorTratementAction.vcxproj">
+      <Project>{028A3A96-DBBD-3269-A109-8B0704DA7B7D}</Project>
+      <Name>ErrorTratementAction</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\JsonAnalizer\JsonAnalizer.vcxproj">
+      <Project>{CB879D27-B2B6-357B-9624-E451C21F76AD}</Project>
+      <Name>JsonAnalizer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\MoveAction\MoveAction.vcxproj">
+      <Project>{D16AAA0B-A0B2-3303-8DCD-2EE19EF40886}</Project>
+      <Name>MoveAction</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\RemoveContextAction\RemoveContextAction.vcxproj">
+      <Project>{C4B517D0-ED41-38C8-9A64-01EC15DAD6F1}</Project>
+      <Name>RemoveContextAction</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\StayAction\StayAction.vcxproj">
+      <Project>{A10963DC-6418-3369-AA9B-09E19309DF28}</Project>
+      <Name>StayAction</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
