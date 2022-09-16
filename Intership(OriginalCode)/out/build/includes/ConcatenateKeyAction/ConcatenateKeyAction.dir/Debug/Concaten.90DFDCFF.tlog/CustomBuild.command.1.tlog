@@ -1,0 +1,10 @@
+^C:\USERS\EXEQUIEL.HERRERA\DOCUMENTS\C++PROJECTS\MYREPO\INTERSHIP(ORIGINALCODE)\INCLUDES\CONCATENATEKEYACTION\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/exequiel.herrera/Documents/C++Projects/MyRepo/Intership(OriginalCode) -BC:/Users/exequiel.herrera/Documents/C++Projects/MyRepo/Intership(OriginalCode)/out/build --check-stamp-file C:/Users/exequiel.herrera/Documents/C++Projects/MyRepo/Intership(OriginalCode)/out/build/includes/ConcatenateKeyAction/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

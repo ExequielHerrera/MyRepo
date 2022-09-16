@@ -25,7 +25,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{15367187-5745-38E3-8011-A264F0E5AAD9}</ProjectGuid>
+    <ProjectGuid>{B3E3467B-3857-326F-A9D6-9CBD17776B01}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -108,11 +108,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/exequiel.herrera/Documents/C++Projects/MyRepo/Intership(OriginalCode)/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple -BC:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/out/build --check-stamp-file C:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/out/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/exequiel.herrera/Documents/C++Projects/MyRepo/Intership(OriginalCode) -BC:/Users/exequiel.herrera/Documents/C++Projects/MyRepo/Intership(OriginalCode)/out/build --check-stamp-file C:/Users/exequiel.herrera/Documents/C++Projects/MyRepo/Intership(OriginalCode)/out/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -120,12 +120,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\CMakeTestingConfig.h.in;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\3.24.1\CMakeCCompiler.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\3.24.1\CMakeCXXCompiler.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\3.24.1\CMakeRCCompiler.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\3.24.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\out\build\CMakeFiles\3.24.1\CMakeCCompiler.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\out\build\CMakeFiles\3.24.1\CMakeCXXCompiler.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\out\build\CMakeFiles\3.24.1\CMakeRCCompiler.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\out\build\CMakeFiles\3.24.1\CMakeSystem.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\src\CMakeTestingConfig.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\out\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/exequiel.herrera/Documents/C++Projects/MyRepo/Intership(OriginalCode)/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple -BC:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/out/build --check-stamp-file C:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/out/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/exequiel.herrera/Documents/C++Projects/MyRepo/Intership(OriginalCode) -BC:/Users/exequiel.herrera/Documents/C++Projects/MyRepo/Intership(OriginalCode)/out/build --check-stamp-file C:/Users/exequiel.herrera/Documents/C++Projects/MyRepo/Intership(OriginalCode)/out/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -133,12 +133,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\CMakeTestingConfig.h.in;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\3.24.1\CMakeCCompiler.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\3.24.1\CMakeCXXCompiler.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\3.24.1\CMakeRCCompiler.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\3.24.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\out\build\CMakeFiles\3.24.1\CMakeCCompiler.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\out\build\CMakeFiles\3.24.1\CMakeCXXCompiler.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\out\build\CMakeFiles\3.24.1\CMakeRCCompiler.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\out\build\CMakeFiles\3.24.1\CMakeSystem.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\src\CMakeTestingConfig.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\out\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/exequiel.herrera/Documents/C++Projects/MyRepo/Intership(OriginalCode)/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple -BC:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/out/build --check-stamp-file C:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/out/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/exequiel.herrera/Documents/C++Projects/MyRepo/Intership(OriginalCode) -BC:/Users/exequiel.herrera/Documents/C++Projects/MyRepo/Intership(OriginalCode)/out/build --check-stamp-file C:/Users/exequiel.herrera/Documents/C++Projects/MyRepo/Intership(OriginalCode)/out/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -146,12 +146,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\CMakeTestingConfig.h.in;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\3.24.1\CMakeCCompiler.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\3.24.1\CMakeCXXCompiler.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\3.24.1\CMakeRCCompiler.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\3.24.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\out\build\CMakeFiles\3.24.1\CMakeCCompiler.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\out\build\CMakeFiles\3.24.1\CMakeCXXCompiler.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\out\build\CMakeFiles\3.24.1\CMakeRCCompiler.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\out\build\CMakeFiles\3.24.1\CMakeSystem.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\src\CMakeTestingConfig.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\out\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/exequiel.herrera/Documents/C++Projects/MyRepo/Intership(OriginalCode)/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple -BC:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/out/build --check-stamp-file C:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/out/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/exequiel.herrera/Documents/C++Projects/MyRepo/Intership(OriginalCode) -BC:/Users/exequiel.herrera/Documents/C++Projects/MyRepo/Intership(OriginalCode)/out/build --check-stamp-file C:/Users/exequiel.herrera/Documents/C++Projects/MyRepo/Intership(OriginalCode)/out/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -159,70 +159,70 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\CMakeTestingConfig.h.in;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\3.24.1\CMakeCCompiler.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\3.24.1\CMakeCXXCompiler.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\3.24.1\CMakeRCCompiler.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\3.24.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\out\build\CMakeFiles\3.24.1\CMakeCCompiler.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\out\build\CMakeFiles\3.24.1\CMakeCXXCompiler.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\out\build\CMakeFiles\3.24.1\CMakeRCCompiler.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\out\build\CMakeFiles\3.24.1\CMakeSystem.cmake;C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\src\CMakeTestingConfig.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\out\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\ZERO_CHECK.vcxproj">
-      <Project>{9C9FB7A0-0EB6-3043-96EE-13ED02C3DF3D}</Project>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\out\build\ZERO_CHECK.vcxproj">
+      <Project>{7E384A9B-FDC3-3FA1-8FA6-D7C09A6414C5}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\Action\Action.vcxproj">
-      <Project>{DEA8F064-3D21-3814-AE0A-AE960FA8040F}</Project>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\out\build\includes\Action\Action.vcxproj">
+      <Project>{56FB4F7A-FF7B-3829-AB23-6F43E20B0C19}</Project>
       <Name>Action</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\AddContextAction\AddContextAction.vcxproj">
-      <Project>{BC6EBF11-774C-368F-BFB5-AFAFC41718D8}</Project>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\out\build\includes\AddContextAction\AddContextAction.vcxproj">
+      <Project>{C4C3C153-9925-372D-A57A-9A6B59D84B19}</Project>
       <Name>AddContextAction</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\CMakeTesting.vcxproj">
-      <Project>{BDAEFD1E-4E80-3EC6-9468-E5D97FC5FA36}</Project>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\out\build\CMakeTesting.vcxproj">
+      <Project>{FDBCD55A-1D7C-3ED3-B4DE-E56489097BDC}</Project>
       <Name>CMakeTesting</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\CheckReservedWordAction\CheckReservedWordAction.vcxproj">
-      <Project>{AF623D55-FE90-3C63-9550-AD292011A06A}</Project>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\out\build\includes\CheckReservedWordAction\CheckReservedWordAction.vcxproj">
+      <Project>{AB3A531C-6FDA-3314-B566-F8CF5E7D3CC3}</Project>
       <Name>CheckReservedWordAction</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\ConcatenateDataAction\ConcatenateDataAction.vcxproj">
-      <Project>{905CA1AE-5D98-3726-8411-6134809D6058}</Project>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\out\build\includes\ConcatenateDataAction\ConcatenateDataAction.vcxproj">
+      <Project>{B0795B0C-0717-3FD7-A5E9-2A89E73F6601}</Project>
       <Name>ConcatenateDataAction</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\ConcatenateKeyAction\ConcatenateKeyAction.vcxproj">
-      <Project>{CF4F2BCE-66CC-3293-B793-0E1F00791A3F}</Project>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\out\build\includes\ConcatenateKeyAction\ConcatenateKeyAction.vcxproj">
+      <Project>{90DFDCFF-C926-3B04-9DA5-758A63F9C2BC}</Project>
       <Name>ConcatenateKeyAction</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\DataReadyAction\DataReadyAction.vcxproj">
-      <Project>{220025A6-58E4-3F2C-A9EE-97670336B668}</Project>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\out\build\includes\DataReadyAction\DataReadyAction.vcxproj">
+      <Project>{68CA9410-E480-3231-BF91-EE2D427E4116}</Project>
       <Name>DataReadyAction</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\DictionaryData\DictionaryData.vcxproj">
-      <Project>{590B3696-1845-353F-9663-4E79A8835F5D}</Project>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\out\build\includes\DictionaryData\DictionaryData.vcxproj">
+      <Project>{DD5927C1-8ED6-35EC-B9ED-FF12E7DC6968}</Project>
       <Name>DictionaryData</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\ErrorTratementAction\ErrorTratementAction.vcxproj">
-      <Project>{028A3A96-DBBD-3269-A109-8B0704DA7B7D}</Project>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\out\build\includes\ErrorTratementAction\ErrorTratementAction.vcxproj">
+      <Project>{DE677D98-D8F3-3E02-8A13-FA60A8D2B525}</Project>
       <Name>ErrorTratementAction</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\JsonAnalizer\JsonAnalizer.vcxproj">
-      <Project>{CB879D27-B2B6-357B-9624-E451C21F76AD}</Project>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\out\build\includes\JsonAnalizer\JsonAnalizer.vcxproj">
+      <Project>{CCD518FA-E809-3424-A291-544DC4AD56C3}</Project>
       <Name>JsonAnalizer</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\MoveAction\MoveAction.vcxproj">
-      <Project>{D16AAA0B-A0B2-3303-8DCD-2EE19EF40886}</Project>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\out\build\includes\MoveAction\MoveAction.vcxproj">
+      <Project>{3CD6EABE-3531-32A7-B572-8CA2A065F36E}</Project>
       <Name>MoveAction</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\RemoveContextAction\RemoveContextAction.vcxproj">
-      <Project>{C4B517D0-ED41-38C8-9A64-01EC15DAD6F1}</Project>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\out\build\includes\RemoveContextAction\RemoveContextAction.vcxproj">
+      <Project>{BCCB5100-4B0F-3ED1-9ABC-47530DBC0AE6}</Project>
       <Name>RemoveContextAction</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\StayAction\StayAction.vcxproj">
-      <Project>{A10963DC-6418-3369-AA9B-09E19309DF28}</Project>
+    <ProjectReference Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\out\build\includes\StayAction\StayAction.vcxproj">
+      <Project>{9A9AEE4F-7408-3DC8-8731-457EBA1FDFAA}</Project>
       <Name>StayAction</Name>
     </ProjectReference>
   </ItemGroup>

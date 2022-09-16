@@ -1,1 +1,4 @@
-﻿  JsonAnalizer.vcxproj -> C:\Users\exequiel.herrera\Documents\C++Projects\CmakeMultiple\out\build\includes\JsonAnalizer\Debug\JsonAnalizer.lib
+﻿  Building Custom Rule C:/Users/exequiel.herrera/Documents/C++Projects/MyRepo/Intership(OriginalCode)/includes/JsonAnalizer/CMakeLists.txt
+  JsonAnalizer.cpp
+C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\includes\JsonAnalizer\JsonAnalizer.cpp(361,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  JsonAnalizer.vcxproj -> C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(OriginalCode)\out\build\includes\JsonAnalizer\Debug\JsonAnalizer.lib

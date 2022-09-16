@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple
+# Install script for directory: C:/Users/exequiel.herrera/Documents/C++Projects/MyRepo/Intership(OriginalCode)
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,18 +34,18 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/out/build/includes/Action/cmake_install.cmake")
-  include("C:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/out/build/includes/AddContextAction/cmake_install.cmake")
-  include("C:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/out/build/includes/CheckReservedWordAction/cmake_install.cmake")
-  include("C:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/out/build/includes/ConcatenateKeyAction/cmake_install.cmake")
-  include("C:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/out/build/includes/ConcatenateDataAction/cmake_install.cmake")
-  include("C:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/out/build/includes/DataReadyAction/cmake_install.cmake")
-  include("C:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/out/build/includes/DictionaryData/cmake_install.cmake")
-  include("C:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/out/build/includes/ErrorTratementAction/cmake_install.cmake")
-  include("C:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/out/build/includes/JsonAnalizer/cmake_install.cmake")
-  include("C:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/out/build/includes/MoveAction/cmake_install.cmake")
-  include("C:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/out/build/includes/RemoveContextAction/cmake_install.cmake")
-  include("C:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/out/build/includes/StayAction/cmake_install.cmake")
+  include("C:/Users/exequiel.herrera/Documents/C++Projects/MyRepo/Intership(OriginalCode)/out/build/includes/Action/cmake_install.cmake")
+  include("C:/Users/exequiel.herrera/Documents/C++Projects/MyRepo/Intership(OriginalCode)/out/build/includes/AddContextAction/cmake_install.cmake")
+  include("C:/Users/exequiel.herrera/Documents/C++Projects/MyRepo/Intership(OriginalCode)/out/build/includes/CheckReservedWordAction/cmake_install.cmake")
+  include("C:/Users/exequiel.herrera/Documents/C++Projects/MyRepo/Intership(OriginalCode)/out/build/includes/ConcatenateKeyAction/cmake_install.cmake")
+  include("C:/Users/exequiel.herrera/Documents/C++Projects/MyRepo/Intership(OriginalCode)/out/build/includes/ConcatenateDataAction/cmake_install.cmake")
+  include("C:/Users/exequiel.herrera/Documents/C++Projects/MyRepo/Intership(OriginalCode)/out/build/includes/DataReadyAction/cmake_install.cmake")
+  include("C:/Users/exequiel.herrera/Documents/C++Projects/MyRepo/Intership(OriginalCode)/out/build/includes/DictionaryData/cmake_install.cmake")
+  include("C:/Users/exequiel.herrera/Documents/C++Projects/MyRepo/Intership(OriginalCode)/out/build/includes/ErrorTratementAction/cmake_install.cmake")
+  include("C:/Users/exequiel.herrera/Documents/C++Projects/MyRepo/Intership(OriginalCode)/out/build/includes/JsonAnalizer/cmake_install.cmake")
+  include("C:/Users/exequiel.herrera/Documents/C++Projects/MyRepo/Intership(OriginalCode)/out/build/includes/MoveAction/cmake_install.cmake")
+  include("C:/Users/exequiel.herrera/Documents/C++Projects/MyRepo/Intership(OriginalCode)/out/build/includes/RemoveContextAction/cmake_install.cmake")
+  include("C:/Users/exequiel.herrera/Documents/C++Projects/MyRepo/Intership(OriginalCode)/out/build/includes/StayAction/cmake_install.cmake")
 
 endif()
 
@@ -57,5 +57,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/exequiel.herrera/Documents/C++Projects/CmakeMultiple/out/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/exequiel.herrera/Documents/C++Projects/MyRepo/Intership(OriginalCode)/out/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

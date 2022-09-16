@@ -4,11 +4,11 @@ cmake_minimum_required(VERSION 3.10)
 # set the project name and version
 project(CMakeTesting VERSION 1.0)
 
-configure_file(CMakeTestingConfig.h.in CMakeTestingConfig.h)
+configure_file(${CMAKE_CURRENT_SOURCE_DIR}/src/CMakeTestingConfig.h.in CMakeTestingConfig.h)
 
 
 # add the executable
-add_executable(${PROJECT_NAME} main.cpp )
+add_executable(${PROJECT_NAME} ${CMAKE_CURRENT_SOURCE_DIR}/src/main.cpp )
 
 
 
@@ -43,17 +43,17 @@ target_link_libraries(${PROJECT_NAME} 	PUBLIC Action
 
 
 target_include_directories(CMakeTesting PUBLIC
-                         "${PROJECT_BINARY_DIR}/includes/Action"
-			 "${PROJECT_BINARY_DIR}/includes/AddContextAction"
-			 "${PROJECT_BINARY_DIR}/includes/CheckReservedWordAction"
-			 "${PROJECT_BINARY_DIR}/includes/ConcatenateDataAction"
-			 "${PROJECT_BINARY_DIR}/includes/DataReadyAction"
-			 "${PROJECT_BINARY_DIR}/includes/DictionaryData)"
-			 "${PROJECT_BINARY_DIR}/includes/ErrorTratementAction"
-			 "${PROJECT_BINARY_DIR}/includes/JsonAnalizer"
-			 "${PROJECT_BINARY_DIR}/includes/MoveAction"
-			 "${PROJECT_BINARY_DIR}/includes/RemoveContextAction"
-			 "${PROJECT_BINARY_DIR}/includes/StayAction"
+                         "$/includes/Action"
+			 "$/includes/AddContextAction"
+			 "$/includes/CheckReservedWordAction"
+			 "$/includes/ConcatenateDataAction"
+			 "$/includes/DataReadyAction"
+			 "$/includes/DictionaryData)"
+			 "$/includes/ErrorTratementAction"
+			 "$/includes/JsonAnalizer"
+			 "$/includes/MoveAction"
+			 "$/includes/RemoveContextAction"
+			 "$/includes/StayAction"
 
 )
 
