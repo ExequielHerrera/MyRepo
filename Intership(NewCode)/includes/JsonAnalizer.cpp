@@ -1,13 +1,10 @@
 #include "JsonAnalizer.h"
-#include "cyclicStringAction.h"
-#include <bits/stdc++.h>
 #include "ConcatenateDataAction.h"
 #include "ConcatenateKeyAction.h"
 #include "ErrorTratementAction.h"
 #include "DataReadyAction.h"
 #include "StayAction.h"
 #include "MoveAction.h"
-#include "CommaContextSwitchAction.h"
 #include "CheckReservedWordAction.h"
 #include "AddContextAction.h"
 #include "RemoveContextAction.h"
