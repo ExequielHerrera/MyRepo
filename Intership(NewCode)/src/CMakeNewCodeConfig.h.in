@@ -1,0 +1,4 @@
+#pragma once
+
+#define CMakeNewCode_VERSION_MAJOR @CMakeTesting_VERSION_MAJOR@
+#define CMakeNewCode_VERSION_MINOR @CMakeTesting_VERSION_MINOR@

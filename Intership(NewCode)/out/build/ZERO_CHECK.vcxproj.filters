@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\out\build\CMakeFiles\8ae5299a5d871e14c506bd7c7b38fd81\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{491B864D-6998-3CEA-B677-86E1A3245BDF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

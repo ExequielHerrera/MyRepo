@@ -1,0 +1,10 @@
+^C:\USERS\EXEQUIEL.HERRERA\DOCUMENTS\C++PROJECTS\MYREPO\INTERSHIP(NEWCODE)\OUT\BUILD\CMAKEFILES\8AE5299A5D871E14C506BD7C7B38FD81\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/exequiel.herrera/Documents/C++Projects/MyRepo/Intership(NewCode) -BC:/Users/exequiel.herrera/Documents/C++Projects/MyRepo/Intership(NewCode)/out/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/exequiel.herrera/Documents/C++Projects/MyRepo/Intership(NewCode)/out/build/CMakeNewCode.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
