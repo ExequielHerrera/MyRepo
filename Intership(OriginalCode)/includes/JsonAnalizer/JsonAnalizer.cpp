@@ -189,7 +189,7 @@ void JsonAnalizer::initializingActions()
 void JsonAnalizer::cleanAnalizer()
 {
     actualState = 3;
-    freeDictionaryList();
+    //freeDictionaryList();
     dictionary.clear();
     reservedWords.clear();
     reservedWords.push_back(RESERVED_TRUE);

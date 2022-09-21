@@ -48,7 +48,9 @@ int main()
     JsonAnalizer j;
 
     //we read the file.
-    string code = readFile("ValidCode2.txt");
+    //string code = readFile();
+
+    string code = "{\"a\" : true , \"b\" : {\"b1\" : \"hello\" , \"b2\" : 3.5 }  ,  \"c\" : 3} $";
 
     //we set the code
     j.setJsonCode(code);
