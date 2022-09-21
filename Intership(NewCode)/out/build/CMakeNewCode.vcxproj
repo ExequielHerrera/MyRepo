@@ -315,18 +315,18 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemGroup>
     <None Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)">
     </None>
-    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\AddContextAction.cpp" />
-    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\CheckReservedWordAction.cpp" />
-    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\ConcatenateDataAction.cpp" />
-    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\ConcatenateKeyAction.cpp" />
-    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\DataReadyAction.cpp" />
+    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\Actions\AddContextAction.cpp" />
+    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\Actions\CheckReservedWordAction.cpp" />
+    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\Actions\ConcatenateDataAction.cpp" />
+    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\Actions\ConcatenateKeyAction.cpp" />
+    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\Actions\DataReadyAction.cpp" />
+    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\Actions\ErrorAction.cpp" />
+    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\Actions\ErrorTratementAction.cpp" />
+    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\Actions\MoveAction.cpp" />
+    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\Actions\RemoveContextAction.cpp" />
+    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\Actions\StayAction.cpp" />
     <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\DictionaryData.cpp" />
-    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\ErrorAction.cpp" />
-    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\ErrorTratementAction.cpp" />
     <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\JsonAnalizer.cpp" />
-    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\MoveAction.cpp" />
-    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\RemoveContextAction.cpp" />
-    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\StayAction.cpp" />
     <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\main.cpp" />
   </ItemGroup>
   <ItemGroup>

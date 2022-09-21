@@ -1,3 +1,12 @@
-﻿  JsonAnalizer.cpp
-C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\JsonAnalizer.cpp(368,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+﻿  AddContextAction.cpp
+  CheckReservedWordAction.cpp
+  ConcatenateDataAction.cpp
+  ConcatenateKeyAction.cpp
+  DataReadyAction.cpp
+  ErrorAction.cpp
+  ErrorTratementAction.cpp
+  MoveAction.cpp
+  RemoveContextAction.cpp
+  StayAction.cpp
+  Generating Code...
   CMakeNewCode.vcxproj -> C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\out\build\Debug\CMakeNewCode.exe

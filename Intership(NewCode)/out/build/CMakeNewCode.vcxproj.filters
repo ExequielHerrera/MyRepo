@@ -1,40 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\AddContextAction.cpp">
+    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\Actions\AddContextAction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\CheckReservedWordAction.cpp">
+    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\Actions\CheckReservedWordAction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\ConcatenateDataAction.cpp">
+    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\Actions\ConcatenateDataAction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\ConcatenateKeyAction.cpp">
+    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\Actions\ConcatenateKeyAction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\DataReadyAction.cpp">
+    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\Actions\DataReadyAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\Actions\ErrorAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\Actions\ErrorTratementAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\Actions\MoveAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\Actions\RemoveContextAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\Actions\StayAction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\DictionaryData.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\ErrorAction.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\ErrorTratementAction.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\JsonAnalizer.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\MoveAction.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\RemoveContextAction.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\StayAction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\exequiel.herrera\Documents\C++Projects\MyRepo\Intership(NewCode)\src\main.cpp">
