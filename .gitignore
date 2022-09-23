@@ -236,7 +236,7 @@ _Pvt_Extensions
 .fake/
 
 
-#CMake ignores to make.
+# CMake ignores to make.
 
 CMakeLists.txt.user
 CMakeCache.txt
@@ -252,6 +252,6 @@ _deps
 
 out/build
 
-#Inore all type of build folders.
+# Inore all type of build folders.
 
-#[Bb] [Uu] [Ii] [Ll] [Dd]/
+[Bb] [Uu] [Ii] [Ll] [Dd]/
